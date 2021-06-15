@@ -1,8 +1,9 @@
 # Welcome to sls-template
 
-In order to use this template follow this step by step,
+In order to use this template you'll need to have serverless globally installed in your device or just install it through running `npm install serverless`.
 
-1. Run `npm init`, to define name of your project
-2. Install serverless `npm install serverless`
-3. Run `serverless create --template-url https://github.com/TesTTerOrg/sls-template`
-4. Change service name in serverless.yml file
+After you have serverless installed you can continue.
+
+Wherever you want your new project to be run the following command to create a directory with your template. The name of that directory and the name in `service` of the serverless.yml file will be whatever you input after `--path`
+
+`serverless create --template-url https://github.com/TesTTerOrg/sls-template --path projectName`

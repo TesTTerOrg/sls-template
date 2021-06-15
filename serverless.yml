@@ -15,7 +15,11 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: src/hello.handler
+    events:
+      - http:
+          path: /
+          method: GET
 
 resources:
   # Resource Name
