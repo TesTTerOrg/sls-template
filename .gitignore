@@ -1,0 +1,16 @@
+# Package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.dynamodb
+
+.env
+.env.*
+!.env.example
+.vscode
+*.txt
+
+# data
+src/data
